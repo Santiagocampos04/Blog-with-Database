@@ -20,7 +20,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-Sancb:"+config.pass+"@cluster0-91afm.mongodb.net/blogDB",
+mongoose.connect("mongodb+srv://admin-xxxx:"+config.pass+"@clusterx-xxxx.mongodb.net/blogDB",
 {
   useNewUrlParser: true,
   useUnifiedTopology: true
